@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan_stats        1
+total                 2
+
+Select jobs to execute...
+
+[Thu Dec 21 15:17:32 2023]
+rule tRNAscan_stats:
+    input: resource/genome/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    jobid: 1
+    reason: Forced execution
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule tRNAscan_stats in file /Users/hacer/PycharmProjects/miuulgiardia/snakefile.smk, line 11:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+output/G_intestinalis.tRNA
+Removing output files of failed job tRNAscan_stats since they might be corrupted:
+output/G_intestinalis.stats
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-12-21T151730.931466.snakemake.log

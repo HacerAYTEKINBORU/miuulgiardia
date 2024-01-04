@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan              1
+tRNAscan_stats        1
+total                 3
+
+Select jobs to execute...
+
+[Thu Dec 21 21:45:54 2023]
+rule tRNAscan_stats:
+    input: resource/genome/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    jobid: 2
+    reason: Forced execution
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+python /Users/hacer/PycharmProjects/miuulgiardia/.snakemake/scripts/tmphlc3qss_.tRNAscan_stats.py
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+[Thu Dec 21 21:46:10 2023]
+Finished job 2.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Thu Dec 21 21:46:10 2023]
+rule tRNAscan:
+    input: resource/genome/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    jobid: 1
+    reason: Forced execution
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+tRNAscan-SE resource/genome/G_intestinalis.fasta -o output/tRNA_scan_result.txt
+[Thu Dec 21 21:46:10 2023]
+Error in rule tRNAscan:
+    jobid: 1
+    input: resource/genome/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    shell:
+        tRNAscan-SE resource/genome/G_intestinalis.fasta -o output/tRNA_scan_result.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-12-21T214550.363174.snakemake.log

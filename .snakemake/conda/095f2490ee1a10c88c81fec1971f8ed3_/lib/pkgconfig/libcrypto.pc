@@ -1,0 +1,13 @@
+prefix=/Users/hacer/PycharmProjects/miuulgiardia/.snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-3
+modulesdir=${libdir}/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.2.0
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}

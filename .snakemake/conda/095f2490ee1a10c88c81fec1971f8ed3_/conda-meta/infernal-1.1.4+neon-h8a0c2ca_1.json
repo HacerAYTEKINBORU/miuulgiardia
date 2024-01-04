@@ -1,0 +1,201 @@
+{
+  "arch": "arm64",
+  "build": "h8a0c2ca_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/nanoporetech/osx-arm64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/hacer/anaconda3/pkgs/infernal-1.1.4+neon-h8a0c2ca_1",
+  "files": [
+    "bin/cmalign",
+    "bin/cmbuild",
+    "bin/cmcalibrate",
+    "bin/cmconvert",
+    "bin/cmemit",
+    "bin/cmfetch",
+    "bin/cmpress",
+    "bin/cmscan",
+    "bin/cmsearch",
+    "bin/cmstat",
+    "share/man/man1/cmalign.1",
+    "share/man/man1/cmbuild.1",
+    "share/man/man1/cmcalibrate.1",
+    "share/man/man1/cmconvert.1",
+    "share/man/man1/cmemit.1",
+    "share/man/man1/cmfetch.1",
+    "share/man/man1/cmpress.1",
+    "share/man/man1/cmscan.1",
+    "share/man/man1/cmsearch.1",
+    "share/man/man1/cmstat.1",
+    "share/man/man1/infernal.1"
+  ],
+  "fn": "infernal-1.1.4+neon-h8a0c2ca_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/hacer/anaconda3/pkgs/infernal-1.1.4+neon-h8a0c2ca_1",
+    "type": 1
+  },
+  "md5": "c1ccec072eadef0d6bc2a82d535e2833",
+  "name": "infernal",
+  "package_tarball_full_path": "/Users/hacer/anaconda3/pkgs/infernal-1.1.4+neon-h8a0c2ca_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cmalign",
+        "path_type": "hardlink",
+        "sha256": "a21a25e26d66e67b3a3b9cab6ba08b73376edc5586c49710aca7c0424458ed23",
+        "sha256_in_prefix": "a21a25e26d66e67b3a3b9cab6ba08b73376edc5586c49710aca7c0424458ed23",
+        "size_in_bytes": 2113392
+      },
+      {
+        "_path": "bin/cmbuild",
+        "path_type": "hardlink",
+        "sha256": "5da9df2c0bbaf86cccfb889777ec4b5900bcf262b8b57b79f819c4b2dcfc2eee",
+        "sha256_in_prefix": "5da9df2c0bbaf86cccfb889777ec4b5900bcf262b8b57b79f819c4b2dcfc2eee",
+        "size_in_bytes": 2288144
+      },
+      {
+        "_path": "bin/cmcalibrate",
+        "path_type": "hardlink",
+        "sha256": "9492bb5d76da161b3f761a44cf4dbd906e486b72eb01a278e32f44f3a29c0dfa",
+        "sha256_in_prefix": "9492bb5d76da161b3f761a44cf4dbd906e486b72eb01a278e32f44f3a29c0dfa",
+        "size_in_bytes": 2097744
+      },
+      {
+        "_path": "bin/cmconvert",
+        "path_type": "hardlink",
+        "sha256": "d8d7df912ca67bd1006d88842fda5cfa75862298d73ee167cc71d8632cb3b8d2",
+        "sha256_in_prefix": "d8d7df912ca67bd1006d88842fda5cfa75862298d73ee167cc71d8632cb3b8d2",
+        "size_in_bytes": 2060992
+      },
+      {
+        "_path": "bin/cmemit",
+        "path_type": "hardlink",
+        "sha256": "13952e82533c15d098441c4ca277c0f27ce7955d85ec0878c6f8972d5762b3cc",
+        "sha256_in_prefix": "13952e82533c15d098441c4ca277c0f27ce7955d85ec0878c6f8972d5762b3cc",
+        "size_in_bytes": 2061056
+      },
+      {
+        "_path": "bin/cmfetch",
+        "path_type": "hardlink",
+        "sha256": "50e64b66fb908aa59071397786a389c29b67d60566f83caad2360158776aaa3f",
+        "sha256_in_prefix": "50e64b66fb908aa59071397786a389c29b67d60566f83caad2360158776aaa3f",
+        "size_in_bytes": 2061040
+      },
+      {
+        "_path": "bin/cmpress",
+        "path_type": "hardlink",
+        "sha256": "ae9db661208d7812960779a6e744f51d0549799f150e3bb4fc98567d322a75c2",
+        "sha256_in_prefix": "ae9db661208d7812960779a6e744f51d0549799f150e3bb4fc98567d322a75c2",
+        "size_in_bytes": 2060992
+      },
+      {
+        "_path": "bin/cmscan",
+        "path_type": "hardlink",
+        "sha256": "935174f01d8f6ee1a61fd472be176b26e9a11034224c06d36e55b8e0e18d6407",
+        "sha256_in_prefix": "935174f01d8f6ee1a61fd472be176b26e9a11034224c06d36e55b8e0e18d6407",
+        "size_in_bytes": 2113168
+      },
+      {
+        "_path": "bin/cmsearch",
+        "path_type": "hardlink",
+        "sha256": "d8c60e82c59f9fd8ce5076d08f1c8f32ba4d372b244e7c3d220fca34dd70341d",
+        "sha256_in_prefix": "d8c60e82c59f9fd8ce5076d08f1c8f32ba4d372b244e7c3d220fca34dd70341d",
+        "size_in_bytes": 2113168
+      },
+      {
+        "_path": "bin/cmstat",
+        "path_type": "hardlink",
+        "sha256": "316f9b3657451cc3a93a1cdb5e40788dbdbc49386d3ebc181289a192b2e48686",
+        "sha256_in_prefix": "316f9b3657451cc3a93a1cdb5e40788dbdbc49386d3ebc181289a192b2e48686",
+        "size_in_bytes": 2095968
+      },
+      {
+        "_path": "share/man/man1/cmalign.1",
+        "path_type": "hardlink",
+        "sha256": "487e07c316a2e6ef30774edcdb7a2697113d05c82b8a56a48592fcc81b6f362a",
+        "sha256_in_prefix": "487e07c316a2e6ef30774edcdb7a2697113d05c82b8a56a48592fcc81b6f362a",
+        "size_in_bytes": 20886
+      },
+      {
+        "_path": "share/man/man1/cmbuild.1",
+        "path_type": "hardlink",
+        "sha256": "90274ea6aed4b41d9d2d48700b7720f8b080c156f0bbde5ce2831533dc876ab3",
+        "sha256_in_prefix": "90274ea6aed4b41d9d2d48700b7720f8b080c156f0bbde5ce2831533dc876ab3",
+        "size_in_bytes": 18591
+      },
+      {
+        "_path": "share/man/man1/cmcalibrate.1",
+        "path_type": "hardlink",
+        "sha256": "d19c474153ba57918a76239178920ace560ab2ad15206343bf2b1fd445873208",
+        "sha256_in_prefix": "d19c474153ba57918a76239178920ace560ab2ad15206343bf2b1fd445873208",
+        "size_in_bytes": 13023
+      },
+      {
+        "_path": "share/man/man1/cmconvert.1",
+        "path_type": "hardlink",
+        "sha256": "31f7e763af599d1d9f37e8897629739c991a6f3f10178d9bc8b3c646ad520b31",
+        "sha256_in_prefix": "31f7e763af599d1d9f37e8897629739c991a6f3f10178d9bc8b3c646ad520b31",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "share/man/man1/cmemit.1",
+        "path_type": "hardlink",
+        "sha256": "ea0def299c2413106ff13df8afff6842067233d11b53bba0d8c02008829765d6",
+        "sha256_in_prefix": "ea0def299c2413106ff13df8afff6842067233d11b53bba0d8c02008829765d6",
+        "size_in_bytes": 7559
+      },
+      {
+        "_path": "share/man/man1/cmfetch.1",
+        "path_type": "hardlink",
+        "sha256": "d091fa79656786c962b974e5ea15a097160c046c516d12bff75a225a03944c2f",
+        "sha256_in_prefix": "d091fa79656786c962b974e5ea15a097160c046c516d12bff75a225a03944c2f",
+        "size_in_bytes": 3637
+      },
+      {
+        "_path": "share/man/man1/cmpress.1",
+        "path_type": "hardlink",
+        "sha256": "341908990d1796dc0fb573653e29f4b097d58763c41cf1f06091f6e4984635e7",
+        "sha256_in_prefix": "341908990d1796dc0fb573653e29f4b097d58763c41cf1f06091f6e4984635e7",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "share/man/man1/cmscan.1",
+        "path_type": "hardlink",
+        "sha256": "d183ce3a23f0f99e056cb872559b307b815ff91581b24a162631af7a22fb2b16",
+        "sha256_in_prefix": "d183ce3a23f0f99e056cb872559b307b815ff91581b24a162631af7a22fb2b16",
+        "size_in_bytes": 24047
+      },
+      {
+        "_path": "share/man/man1/cmsearch.1",
+        "path_type": "hardlink",
+        "sha256": "154efdaa97d2877552acad75c23d2bb5d6e80848423357a32da5762de930a5af",
+        "sha256_in_prefix": "154efdaa97d2877552acad75c23d2bb5d6e80848423357a32da5762de930a5af",
+        "size_in_bytes": 22077
+      },
+      {
+        "_path": "share/man/man1/cmstat.1",
+        "path_type": "hardlink",
+        "sha256": "323223c8e55025255de47155a5f66899ccad1ad9ac2ed023a5f0ad8b1f319dc4",
+        "sha256_in_prefix": "323223c8e55025255de47155a5f66899ccad1ad9ac2ed023a5f0ad8b1f319dc4",
+        "size_in_bytes": 5688
+      },
+      {
+        "_path": "share/man/man1/infernal.1",
+        "path_type": "hardlink",
+        "sha256": "01abc7acf24c3b8605736f6a604002a9c9155bfe76369e6e5cd4251ce86ca055",
+        "sha256_in_prefix": "01abc7acf24c3b8605736f6a604002a9c9155bfe76369e6e5cd4251ce86ca055",
+        "size_in_bytes": 4582
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "sha256": "9e8d8db3cdfc79a2379570fd6f2df45521603e454c26c674a1ce28e29115ab52",
+  "size": 9575122,
+  "subdir": "osx-arm64",
+  "timestamp": 1690998634429,
+  "url": "https://conda.anaconda.org/nanoporetech/osx-arm64/infernal-1.1.4+neon-h8a0c2ca_1.tar.bz2",
+  "version": "1.1.4+neon"
+}

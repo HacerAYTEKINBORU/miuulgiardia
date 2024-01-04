@@ -1,0 +1,11 @@
+prefix=/Users/hacer/PycharmProjects/miuulgiardia/.snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/hacer/PycharmProjects/miuulgiardia/.snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

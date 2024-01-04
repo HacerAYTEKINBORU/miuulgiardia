@@ -1,0 +1,23 @@
+==> 2023-12-21 15:09:42 <==
+# cmd: /Users/hacer/anaconda3/bin/conda-env create --quiet --file /Users/hacer/PycharmProjects/miuulgiardia/.snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_.yaml --prefix /Users/hacer/PycharmProjects/miuulgiardia/.snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+# conda version: 23.7.4
++conda-forge/noarch::pip-23.3.2-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-68.2.2-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2023c-h71feb2d_0
++conda-forge/noarch::wheel-0.42.0-pyhd8ed1ab_0
++conda-forge/osx-arm64::bzip2-1.0.8-h93a5062_5
++conda-forge/osx-arm64::ca-certificates-2023.11.17-hf0a4a13_0
++conda-forge/osx-arm64::libexpat-2.5.0-hb7217d7_1
++conda-forge/osx-arm64::libffi-3.4.2-h3422bc3_5
++conda-forge/osx-arm64::libsqlite-3.44.2-h091b4b1_0
++conda-forge/osx-arm64::libzlib-1.2.13-h53f4e23_5
++conda-forge/osx-arm64::ncurses-6.4-h463b476_2
++conda-forge/osx-arm64::openssl-3.2.0-h0d3ecfb_1
++conda-forge/osx-arm64::perl-5.32.1-4_hf2054a2_perl5
++conda-forge/osx-arm64::python-3.12.0-h47c9636_0_cpython
++conda-forge/osx-arm64::readline-8.2-h92ec313_1
++conda-forge/osx-arm64::tk-8.6.13-h5083fa2_1
++conda-forge/osx-arm64::xz-5.2.6-h57fd34a_0
++nanoporetech/osx-arm64::infernal-1.1.4+neon-h8a0c2ca_1
++nanoporetech/osx-arm64::trnascan-se-2.0.12-pl5321h8a0c2ca_0
+# update specs: ['trnascan-se', "python[version='>=3.8']"]
