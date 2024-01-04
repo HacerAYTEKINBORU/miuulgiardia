@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /Users/hacer/PycharmProjects/miuulgiardia/snakefile.smk, line 30:
+Missing input files for rule all:
+    affected files:
+        output/tRNAscan/G_intestinalis.tRNA
+        output/tRNAscan/G.intestialis.tRNA
+        output/tRNAscan/G_muris.tRNA

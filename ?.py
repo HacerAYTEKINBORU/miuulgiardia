@@ -14,7 +14,7 @@
 
 rule all:
     input: "output/tRNA_scan_result.txt",
-            "output/G_intestinalis.tRNA"
+       #     "output/G_intestinalis.tRNA"
 rule tRNAscan:
     input:"resource/G_intestinalis.fasta"
     output:"output/tRNA_scan_result.txt"
@@ -29,9 +29,9 @@ rule tRNAscan_stats:
     params:
             threads=2
     conda:
-             "env/env.yaml"
+    #         "env/env.yaml"
     script:
-        "scripts/tRNAscan_stats.py"
+     #   "scripts/tRNAscan_stats.py"
 
 
 from snakemake.shell import shell

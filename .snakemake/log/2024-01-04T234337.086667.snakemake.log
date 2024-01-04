@@ -1,0 +1,61 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+tRNAscan_stats_wildcard        2
+total                          3
+
+Select jobs to execute...
+
+[Thu Jan  4 23:43:39 2024]
+rule tRNAscan_stats_wildcard:
+    input: resource/Genome/G_intestinalis.fasta
+    output: output/tRNAscan/G_intestinalis.tRNA, output/tRNAscan/G_intestinalis.stats
+    jobid: 1
+    reason: Forced execution
+    wildcards: genome=G_intestinalis
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+python /Users/hacer/PycharmProjects/miuulgiardia/.snakemake/scripts/tmprf4jiv3q.tRNAscan_stats.py
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+[Thu Jan  4 23:43:56 2024]
+Finished job 1.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Thu Jan  4 23:43:56 2024]
+rule tRNAscan_stats_wildcard:
+    input: resource/Genome/G_muris.fasta
+    output: output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_muris.stats
+    jobid: 2
+    reason: Forced execution
+    wildcards: genome=G_muris
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+python /Users/hacer/PycharmProjects/miuulgiardia/.snakemake/scripts/tmpzg9jeog1.tRNAscan_stats.py
+Activating conda environment: .snakemake/conda/095f2490ee1a10c88c81fec1971f8ed3_
+[Thu Jan  4 23:44:08 2024]
+Finished job 2.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Thu Jan  4 23:44:08 2024]
+localrule all:
+    input: output/tRNA_scan_result.txt, output/tRNAscan/G_intestinalis.tRNA, output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_intestinalis.tRNA
+    jobid: 0
+    reason: Input files updated by another job: output/tRNAscan/G_intestinalis.tRNA, output/tRNAscan/G_muris.tRNA
+    resources: tmpdir=/var/folders/y7/n651qkyj1k7dyvpq_kc0qjhh0000gn/T
+
+[Thu Jan  4 23:44:08 2024]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2024-01-04T234337.086667.snakemake.log
